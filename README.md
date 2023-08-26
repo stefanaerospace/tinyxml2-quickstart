@@ -1,4 +1,4 @@
-Notes: this technique "vendors" tinyxml2 to your project. So no git submodules, additional builds, or downloads are needed. Cmake fetches the source and builds tinyxml2 while it is also building your code, but doesn't add it to your file tree. Use "#include "tinyxml2.h" " to use tinyxml2 in your project.
+Notes: this technique "vendors" tinyxml2 to your project. So no git submodules, additional builds, or downloads are needed. Cmake fetches the source and builds tinyxml2 automatically, it is in the generated _deps folder. Use "#include "tinyxml2.h" " to use tinyxml2 in your project.
 
 Step 1:
 Install tinyxml2:
